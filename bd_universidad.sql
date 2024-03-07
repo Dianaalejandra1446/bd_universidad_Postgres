@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS public.persona
 
 CREATE TABLE IF NOT EXISTS public.grado(
 	id_grado serial NOT NULL,
-	nombre varchar(50),
+	nombre varchar(100),
 	CONSTRAINT grado_pkey PRIMARY KEY (id_grado)
 );
 
